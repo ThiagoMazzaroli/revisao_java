@@ -3,6 +3,7 @@ public class Main {
         Produto produto = new Produto(9.90, 55, "Bolacha");
 
         produto.adicionarEstoque(10);
+        produto.removerEstoque(10);
         produto.mostrarProduto();
 
 
